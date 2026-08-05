@@ -23,11 +23,22 @@ int main(){
     for (int i = 0; i < 2; i++)
     {
         for (int j = 0; j < 3; j++)
-        {
-            result[i][j]=(arr[i][j]*arrr[j][i]);
+        {   int val=0;
+            for (int k = 0; k < 2; k++)
+            {
+                val+=arr[i][k]+arrr[k][j];
+            }
+            result[i][j]=val;
+            
+            
         }
         
     }
+    
+    
+    
+    
+    //print
     for (int i = 0; i < 2; i++)
     {
         for (int j = 0; j < 3; j++)
