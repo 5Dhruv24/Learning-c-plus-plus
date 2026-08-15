@@ -5,6 +5,20 @@
 using namespace std;
 
 
+vector<vector<int>> spiral( vector<vector<int>> &v,int n){
+    int left = 0;
+    int top = 0;
+    int bottom=n-1;
+    int right=n-1;
+    int direction = 0;
+    while(left<=right or top<=bottom){
+
+        if(direction==0)
+
+    }
+
+}
+
 int main(){
     int n;
     cin>>n;
@@ -17,6 +31,8 @@ int main(){
         }
         
     }
+
+    spiral(v , n);
 
     for (int i = 0; i < n; i++)
     {
