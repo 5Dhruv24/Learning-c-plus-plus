@@ -1,5 +1,5 @@
 //sum of digit
-//count number of digit of a given number
+
 # include<iostream>
 using namespace std;
 

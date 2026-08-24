@@ -21,6 +21,6 @@ int main(){
         }
         
     }
-    cout<<"Difference:-"<<even-odd<<endl;
+    cout<<"Difference="<<even-odd<<endl;
     return 0;
 }

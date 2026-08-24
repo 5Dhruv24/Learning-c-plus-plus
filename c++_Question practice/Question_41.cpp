@@ -1,3 +1,4 @@
+//Program to check the sum of suffix array and prefix array is equal or not
 # include<iostream>
 using namespace std;
 

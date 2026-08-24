@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-int main(){
+void main(){
     vector<int> a={1,2,3,4,5};
     int p=a.size();
     for (int i = 0; i < p ;i++)
@@ -26,5 +26,6 @@ int main(){
     cout<<endl;
     
     
-    return 0;
+    
+    
 }
