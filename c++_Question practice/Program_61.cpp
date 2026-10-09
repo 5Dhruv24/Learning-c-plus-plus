@@ -1,3 +1,4 @@
+//program to find the sum of array using recursion
 #include <iostream>
 using namespace std;
 
