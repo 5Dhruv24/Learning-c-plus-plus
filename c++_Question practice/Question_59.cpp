@@ -3,9 +3,7 @@
 using namespace std;
 
 void result(int arr[],int id,int n){
-    if(sizeof(arr)==0){
-        cout<<" "<<endl;
-    }
+    
     if(id!=n){
         cout<<arr[id]<<endl;
         result(arr,id+1,n);
