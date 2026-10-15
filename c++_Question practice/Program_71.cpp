@@ -11,5 +11,7 @@ int result(int i,int j,int m ,int n){
 
 int main(){
     cout<<result(0,0,2,3);
+
+    
     return 0;
 }

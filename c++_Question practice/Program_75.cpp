@@ -9,7 +9,7 @@ void insertionnsort(int *v,int n){
         int current=v[i];
         int j=i-1;
         while(j>=0 && v[j]>current ){
-            v[i]=v[j];
+            v[j+1]=v[j];
             j--;
         }
         v[j+1]=current;
