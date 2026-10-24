@@ -5,25 +5,24 @@ using namespace std;
 
 int sr(int target){
     int mid=target/2;
-    int ans;
+    int ans=-1;
     
     int hi,lo;
-    lo=0;
+    lo=1;
     hi=target;
 
     while(lo<=hi ){
-        mid=hi/2;
-        if(mid*mid==target){
-            return mid;
-
+        int mid=(hi+lo)/2;
+        if(mid*mid<=target){
+            ans=mid;
+            lo=mid+1;
         }
-        else if(mid*mid>target){
+        else{
             hi=mid-1;
         }
-        else if(mid*mid<target and (mid+1)*(mid+1)>target){
-            return mid;
-        }
+
     }
+    return ans;
 
 }
 
