@@ -13,7 +13,7 @@ int result(int arr[],int id,int n){
 }
 
 int main(){
-    int arr[5]={1,2,6,4,5};
+    int arr[5]={1,4,6,4,5};
     int max=0;
 
     cout<<result( arr ,0,5);
