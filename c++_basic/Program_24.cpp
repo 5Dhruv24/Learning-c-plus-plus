@@ -29,7 +29,7 @@ int rbs(int arr[],int target,int s,int f){
             return ans;
         }
         if(arr[s]>arr[f] && arr[mid]>arr[mid+1]){
-            if(bs(arr,target,s,mid)){
+            if(bs(arr,target,s,mid)!=-1){
                 ans=bs(arr,target,st,mid-1);
                 return ans;
             }
@@ -49,7 +49,7 @@ int rbs(int arr[],int target,int s,int f){
 }
 
 int main(){
-    int arr[]={7,6,5,1,2,3};
+    int arr[]={6,7,1,2,3,4};
     int target;
     int n=sizeof(arr)/sizeof(arr[1]);
     cout<<"Enter target:-",cin>>target,cout<<endl;

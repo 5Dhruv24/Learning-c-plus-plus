@@ -15,7 +15,7 @@ int search(vector<int>  arr,int target,int l,int h){
             
 
      }
-     if(arr[mid]<target){
+     else if(arr[mid]<target){
         return search(arr,target,mid+1,h);
      }
      else if(arr[mid]>target){
