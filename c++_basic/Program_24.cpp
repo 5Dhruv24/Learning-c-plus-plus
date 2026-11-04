@@ -53,7 +53,7 @@ int main(){
     int target;
     int n=sizeof(arr)/sizeof(arr[1]);
     cout<<"Enter target:-",cin>>target,cout<<endl;
-    cout<<rbs(arr,target,0,n);
+    cout<<rbs(arr,target,0,n-1);
     
     return 0;
 }
