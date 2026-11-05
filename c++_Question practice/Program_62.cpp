@@ -1,5 +1,6 @@
 //program to remove all the occurnence of a from string abnax
 # include<iostream>
+#include<vector>
 using namespace std;
 
 string result(string s,int id,int n){
