@@ -10,7 +10,8 @@ void result(int num , int k){
     }
     
     
-     result(num,k-1);
+    
+    result(num,k-1);
     cout<<(num*k)<<" ";
     
 }
