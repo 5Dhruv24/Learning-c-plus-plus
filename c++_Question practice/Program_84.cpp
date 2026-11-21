@@ -30,5 +30,5 @@ int main(){
     int target;
     cout<<"enter the target:-",cin>>target,cout<<endl;
     cout<<search(ar,target,0,8);
-    return 0;
+    return 0;   
 }
