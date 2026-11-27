@@ -35,7 +35,7 @@ int main(){
     swap(a,b);
     cout<<"The swapped value of a is "<<a<<" and b is "<<b<<endl; //not swapped
     
-
+     cout<<a,
     swapr(&a,&b);
     cout<<"The swapped value of a is "<<a<<" and b is "<<b<<endl;  //swapped
     
