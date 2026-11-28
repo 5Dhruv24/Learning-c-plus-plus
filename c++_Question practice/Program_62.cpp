@@ -17,5 +17,6 @@ string result(string s,int id,int n){
 int main(){
     string s="abnax";
     cout<<result(s , 0 , 5);
+    cout<<result(s,0,4);
     return 0;
 }
